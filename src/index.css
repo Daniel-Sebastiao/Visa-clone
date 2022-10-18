@@ -1,0 +1,18 @@
+* {
+  font-family: Cascadia Code;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+  background-color: hsl(0, 0%, 7%);
+}
+html::-webkit-scrollbar-thumb {
+  background-color: hsl(0, 0%, 66%);
+  border-radius: .5rem;
+}
+html::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(0, 0%, 83%);
+}
